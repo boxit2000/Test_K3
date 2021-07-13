@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: rgb(10, 10, 70);
+    width: 100%;
+    height: 100vh;
+}
+.head{
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 50px;
+}
+.head :nth-child(2){
+    margin: 0px 10px;
+    /* color: black; */
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    border-radius: 15px;
+    padding-left: 150px;
+}
+.box > p {
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.link{
+    display: flex;
+}
+.link > p {
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.open_submit {
+    background-color: teal;
+    border: none;
+    margin-left: 5px;
+    width: 55px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.short{
+    margin-top: 20px;
+    display: flex;
+}
+.short > p {
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.short button {
+    /* background-color: teal; */
+    border: none;
+    margin-left: 5px;
+    width: 55px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.short button:focus{
+    background-color: black;
+    color: white;
+}
+.descreption{
+    width: 50%;
+    margin-top: 20px;
+}
+.close_submit{
+    background-color: black;
+    cursor: none;
+}
